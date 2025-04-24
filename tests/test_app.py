@@ -8,6 +8,6 @@ def test_add():
 def test_multiply():
     assert multiply(3, 4) == 12
 
-# def test_multiply():
-#     assert multiply(3, 4) == 11  # This will FAIL!
+def test_multiply():
+    assert multiply(3, 4) == 11  # This will FAIL!
 
